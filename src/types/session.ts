@@ -10,6 +10,7 @@ export interface Session {
   steps?: number;
   lat: number;
   lon: number;
+  spo2_pct?: number;
 }
 
 export interface WeatherObservation {
